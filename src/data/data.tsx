@@ -30,7 +30,8 @@ import {
 /** Metadata */
 export const homePageMeta: HomepageMeta = {
   title: 'Anushka Shanker | Software Engineer',
-  description: 'Portfolio of Anushka Shanker, an engineering student passionate about full-stack and mobile app development.',
+  description:
+    'Portfolio of Anushka Shanker, an engineering student passionate about full-stack and mobile app development.',
 };
 
 /** Section ID constants */
@@ -53,10 +54,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an ECE (AI) undergrad at <strong className="text-stone-100">IGDTUW</strong>, passionate about creating impactful, data-driven tech solutions.
+        I'm an ECE (AI) undergrad at <strong className="text-stone-100">IGDTUW</strong>, passionate about creating
+        impactful, data-driven tech solutions.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I enjoy working across the full stack, especially with <strong className="text-stone-100">React.js</strong> and <strong className="text-stone-100">Node.js</strong>, and love applying my skills to real-world problems.
+        I enjoy working across the full stack, especially with <strong className="text-stone-100">React.js</strong> and{' '}
+        <strong className="text-stone-100">Node.js</strong>, and love applying my skills to real-world problems.
       </p>
     </>
   ),
@@ -197,5 +200,5 @@ export const contact: ContactSection = {
 /** Social Section */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/shananu'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/anushka-shanker-061b6a218/'}
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/anushka-shanker-061b6a218/'},
 ];
